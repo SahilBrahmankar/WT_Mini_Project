@@ -109,7 +109,7 @@ CREATE TABLE financial_plans (
 ## Screenshots
 
 ### Homepage
-(/Live Demo Screenshots/homepage.png)
+img src="/Live Demo Screenshots/homepage.png"
 *Main landing page with hero section*
 
 ### Services Section
