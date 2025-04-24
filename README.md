@@ -127,10 +127,3 @@ CREATE TABLE financial_plans (
 - Fund comparison tools
 - Mobile app development
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact
-For any inquiries or support requests, please contact:
-- Email: your.email@example.com
-- Website: [yourwebsite.com](https://yourwebsite.com)
