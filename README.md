@@ -1,5 +1,3 @@
-# WT_Mini_Project
-
 # MF Advisory - Mutual Fund Investment Platform
 
 ## Project Overview
@@ -117,8 +115,3 @@ CREATE TABLE financial_plans (
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact
-For any inquiries or support requests, please contact:
-- Email: your.email@example.com
-- Website: [yourwebsite.com](https://yourwebsite.com)
