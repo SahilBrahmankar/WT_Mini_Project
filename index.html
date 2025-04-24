@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MF Advisory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>MF Advisory</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h2>Grow Your Wealth with </h2>
+        <h2>Smart Investments</h2>
+        <p>Expert advice and tailor-made investment solutions to help </p>
+        <p>you achieve your financial goals.</p>
+        <br>
+        <br>
+        <a href="#services" class="cta-btn">Get Started</a>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h3>Our Services</h3>
+        <div class="service-cards">
+            <div class="card">
+                <h4>Financial Planning</h4>
+                <p>Comprehensive financial plans to secure your future.</p>
+            </div>
+            <div class="card">
+                <h4>Retirement Planning</h4>
+                <p>Plan early for a stress-free and secure retirement.</p>
+            </div>
+            <div class="card">
+                <h4>Investment Strategy</h4>
+                <p>Custom investment strategies for high returns.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <h3>Why Choose Us?</h3>
+        <div class="choose-us-cards">
+            <div class="choose-card">
+                <h4>29.74%</h4>
+                <p>Returns Since Inception</p>
+            </div>
+            <div class="choose-card">
+                <h4>₹50,000Cr+</h4>
+                <p>Previously Managed</p>
+            </div>
+            <div class="choose-card">
+                <h4>20 years+</h4>
+                <p>Of Investment Expertise</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Funds Section -->
+    <section class="funds">
+        <h3>Top Performing Funds</h3>
+        <div class="fund-cards">
+            <!-- Fund 1 -->
+            <div class="fund-card">
+                <div class="fund-info">
+                    <h4>Quant Small Cap Fund Regular-Growth</h4>
+                    <div class="tags">
+                        <span class="tag equity">Equity</span>
+                        <span class="tag category">Small Cap</span>
+                    </div>
+                    <p><strong>NAV:</strong> ₹125.20 <span>(As of 18/10/2024)</span></p>
+                    <p><strong>AUM:</strong> ₹9.8K Cr.</p>
+                    <p><strong>1 Day Returns:</strong> 0.09%</p>
+                    <p><strong>5Y Returns:</strong> 32.61%</p>
+                </div>
+            </div>
+
+            <!-- Fund 2 -->
+            <div class="fund-card">
+                <div class="fund-info">
+                    <h4>Nippon India Growth Fund Regular-Growth</h4>
+                    <div class="tags">
+                        <span class="tag equity">Equity</span>
+                        <span class="tag category">MidCap</span></div>
+                    <p><strong>NAV:</strong> ₹4143.10 <span>(As of 18/10/2024)</span></p>
+                    <p><strong>AUM:</strong> ₹24.5K Cr.</p>
+                    <p><strong>1 Day Returns:</strong> 0.43%</p>
+                    <p><strong>5Y Returns:</strong> 25.28%</p>
+                </div>
+            </div>
+
+            <!-- Fund 3 -->
+            <div class="fund-card">
+                <div class="fund-info">
+                    <h4>SBI Magnum MidCap Fund Regular Plan-Growth</h4>
+                    <div class="tags">
+                        <span class="tag equity">Equity</span>
+                        <span class="tag category">MidCap</span>
+                    </div>
+                    <p><strong>NAV:</strong> ₹451.50 <span>(As of 18/10/2024)</span></p>
+                    <p><strong>AUM:</strong> ₹22.1K Cr.</p>
+                    <p><strong>1 Day Returns:</strong> 0.40%</p>
+                    <p><strong>5Y Returns:</strong> 20.23%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section">
+        <div class="cta-options">
+            <button id="callbackBtn">Request a Callback</button>
+            <button id="financialPlanBtn">Create a Financial Plan</button>
+        </div>
+
+        <!-- Callback Form (Hidden by default) -->
+        <div id="callbackForm" class="form" style="display: none;">
+            <h3>Request a Callback</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Mobile No.:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <!-- Financial Plan Form (Hidden by default) -->
+        <div id="financialPlanForm" class="form" style="display: none;">
+            <h3>Create a Financial Plan</h3>
+            <form>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" required>
+
+                    <label for="maritalStatus">Marital Status:</label>
+                    <input type="text" id="maritalStatus" name="maritalStatus" required>
+
+                    <label for="dependents">Do you have dependents?</label>
+                    <select id="dependents" name="dependents" required>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+
+                    <label for="numDependents">If yes, how many?</label>
+                    <input type="number" id="numDependents" name="numDependents" min="0">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Financial Situation</legend>
+                    <label for="income">Current Income:</label>
+                    <input type="number" id="income" name="income" required>
+
+                    <label for="expenses">Monthly Expenses:</label>
+                    <input type="number" id="expenses" name="expenses" required>
+
+                    <label for="assets">Existing Investments or Assets:</label>
+                    <textarea id="assets" name="assets" required></textarea>
+
+                    <label for="netWorth">Total Net Worth:</label>
+                    <input type="number" id="netWorth" name="netWorth" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Investment Goals</legend>
+                    <label for="shortTermGoals">What are your short-term financial goals?</label>
+                    <textarea id="shortTermGoals" name="shortTermGoals" required></textarea>
+
+                    <label for="longTermGoals">What are your long-term financial goals?</label>
+                    <textarea id="longTermGoals" name="longTermGoals" required></textarea>
+
+                    <label for="horizon">Investment Horizon:</label>
+                    <input type="text" id="horizon" name="horizon" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Risk Tolerance</legend>
+                    <label for="riskTolerance">How would you describe your risk tolerance?</label>
+                    <input type="text" id="riskTolerance" name="riskTolerance" required>
+
+                    <label for="potentialLoss">Would you be comfortable with potential losses?</label>
+                    <select id="potentialLoss" name="potentialLoss" required>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Investment Preferences</legend>
+                    <label for="preferences">Do you have any preferences for specific types of mutual funds?</label>
+                    <textarea id="preferences" name="preferences"></textarea>
+
+                    <label for="lumpsum">Lumpsum Amount:</label>
+                    <input type="number" id="lumpsum" name="lumpsum">
+
+                    <label for="sip">SIP Amount:</label>
+                    <input type="number" id="sip" name="sip">
+                </fieldset>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <p>© 2024 MF Advisory. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
