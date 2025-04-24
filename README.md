@@ -1,4 +1,4 @@
-# MF Advisory - Mutual Fund Investment Platform
+# MF Advisory - Mutual Fund Advisory Platform
 
 ## Project Overview
 MF Advisory is a responsive web application designed to help users make smart investment decisions through personalized financial planning and expert advice on mutual fund investments. The platform showcases top-performing mutual funds and offers custom financial planning services.
