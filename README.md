@@ -106,6 +106,30 @@ CREATE TABLE financial_plans (
 - Use the "Request a Callback" button to get in touch with an advisor
 - Complete the "Create a Financial Plan" form for personalized investment advice
 
+## Screenshots
+
+### Homepage
+![Homepage](/screenshots/homepage.png)
+*Main landing page with hero section*
+
+### Services Section
+![Services](/screenshots/services.png)
+*Overview of financial services offered*
+
+### Top Performing Funds
+![Funds](/screenshots/funds.png)
+*Display of current top-performing mutual funds*
+
+### Financial Planning Form
+![Financial Planning](/screenshots/financial-plan.png)
+*Detailed questionnaire for personalized financial planning*
+
+### Callback Form
+![Callback](/screenshots/callback.png)
+*Quick form to request advisor callback*
+
+> Note: Add actual screenshots to a `/screenshots` directory in your repository and update these image paths accordingly.
+
 ## Future Enhancements
 - User authentication and account management
 - Portfolio tracking and management
@@ -115,3 +139,8 @@ CREATE TABLE financial_plans (
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+For any inquiries or support requests, please contact:
+- Email: your.email@example.com
+- Website: [yourwebsite.com](https://yourwebsite.com)
