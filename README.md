@@ -109,19 +109,19 @@ CREATE TABLE financial_plans (
 ## Screenshots
 
 ### Homepage
-![Homepage](/Live Demo Screenshots/homepage.png)
+(/Live Demo Screenshots/homepage.png)
 *Main landing page with hero section*
 
 ### Services Section
-![Services](/Live Demo Screenshots/services.png)
+(/Live Demo Screenshots/services.png)
 *Overview of financial services offered*
 
 ### Financial Planning Form
-![Financial Planning](/Live Demo Screenshots/financial-plan.png)
+(/Live Demo Screenshots/financial-plan.png)
 *Detailed questionnaire for personalized financial planning*
 
 ### Callback Form
-![Callback](/Live Demo Screenshots/callback.png)
+(/Live Demo Screenshots/callback.png)
 *Quick form to request advisor callback*
 
 > Note: Add actual screenshots to a `/screenshots` directory in your repository and update these image paths accordingly.
